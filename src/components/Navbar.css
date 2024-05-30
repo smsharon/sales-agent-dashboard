@@ -1,0 +1,23 @@
+.navbar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .navbar ul li:hover {
+    background-color: #575757;
+  }
+  
