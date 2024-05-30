@@ -1,0 +1,78 @@
+{
+    "data": {
+      "collections": 100,
+      "signups": 50,
+      "revenue": 1000000,
+      "bouncedCheques": 5,
+      "targets": [
+        { "product": "Zeraki Analytics", "target": 200, "achieved": 150 },
+        { "product": "Zeraki Finance", "target": 100, "achieved": 80 },
+        { "product": "Zeraki Timetable", "target": 50, "achieved": 30 }
+      ],
+      "signupsOverview": [
+        { "schoolType": "Primary", "Zeraki Analytics": 60, "Zeraki Finance": 40, "Zeraki Timetable": 20 },
+        { "schoolType": "Secondary", "Zeraki Analytics": 50, "Zeraki Finance": 30, "Zeraki Timetable": 10 },
+        { "schoolType": "IGCSE", "Zeraki Analytics": 40, "Zeraki Finance": 10, "Zeraki Timetable": 5 }
+      ],
+      "upcomingInvoices": [
+        { "id": 1, "schoolName": "Kusoma Academy", "amount": 5000, "dueDate": "2024-06-01" },
+        { "id": 2, "schoolName": "Kenya High", "amount": 3000, "dueDate": "2024-06-05" },
+        { "id": 3, "schoolName": "Makini School", "amount": 8000, "dueDate": "2024-06-10" }
+      ]
+    },
+    "schools": [
+      {
+        "id": 1,
+        "name": "Kusoma Academy",
+        "type": "Primary",
+        "products": ["Zeraki Analytics", "Zeraki Finance"],
+        "county": "Nairobi",
+        "registrationDate": "2023-01-10",
+        "contact": "+254758793099",
+        "balance": 5000,
+        "invoices": [
+          { "id": 1, "item": "Zeraki Analytics", "amount": 2000, "dueDate": "2024-06-01" },
+          { "id": 2, "item": "Zeraki Finance", "amount": 3000, "dueDate": "2024-06-01" }
+        ],
+        "collections": [
+          { "id": 1, "amount": 1000, "status": "Valid" },
+          { "id": 2, "amount": 2000, "status": "Bounced" }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Kenya High",
+        "type": "Secondary",
+        "products": ["Zeraki Analytics"],
+        "county": "Mombasa",
+        "registrationDate": "2023-02-20",
+        "contact": "+254716841107",
+        "balance": 3000,
+        "invoices": [
+          { "id": 3, "item": "Zeraki Analytics", "amount": 3000, "dueDate": "2024-06-05" }
+        ],
+        "collections": [
+          { "id": 3, "amount": 1500, "status": "Valid" }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Makini School",
+        "type": "IGCSE",
+        "products": ["Zeraki Analytics", "Zeraki Timetable"],
+        "county": "Kisumu",
+        "registrationDate": "2024-06-10",
+        "contact": "+254721299347",
+        "balance": 8000,
+        "invoices": [
+          { "id": 4, "item": "Zeraki Analytics", "amount": 4000, "dueDate": "2024-06-10" },
+          { "id": 5, "item": "Zeraki Timetable", "amount": 4000, "dueDate": "2024-06-10" }
+        ],
+        "collections": [
+          { "id": 4, "amount": 2000, "status": "Valid" },
+          { "id": 5, "amount": 2000, "status": "Valid" }
+        ]
+      }
+    ]
+  }
+  
