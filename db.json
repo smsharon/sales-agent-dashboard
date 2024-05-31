@@ -1,7 +1,7 @@
 {
     "data": {
       "collections": 100,
-      "signups": 50,
+      "signups": 260,
       "revenue": 1000000,
       "bouncedCheques": 5,
       "targets": [
@@ -18,7 +18,12 @@
         { "id": 1, "schoolName": "Kusoma Academy", "amount": 5000, "dueDate": "2024-06-01" },
         { "id": 2, "schoolName": "Kenya High", "amount": 3000, "dueDate": "2024-06-05" },
         { "id": 3, "schoolName": "Makini School", "amount": 8000, "dueDate": "2024-06-10" }
-      ]
+      ],
+      "products": {
+        "zerakiAnalytics": { "signups": 150, "revenue": 600000 },
+        "zerakiFinance": { "signups": 80, "revenue": 300000 },
+        "zerakiTimetable": { "signups": 30, "revenue": 100000 }
+      }
     },
     "schools": [
       {
