@@ -1,5 +1,5 @@
 .top-card-metrics-container {
-  padding: 20px;
+  padding: 10px;
   background-color: #f4f4f4;
 }
 
@@ -16,7 +16,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 10px;
-  width: 200px;
+  width: 218px;
   height: 200px;
   display: flex;
   flex-direction: column;
