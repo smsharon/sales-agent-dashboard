@@ -1,0 +1,31 @@
+.upcoming-invoices {
+    margin-top: 20px;
+  }
+  
+  .upcoming-invoices table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .upcoming-invoices th, .upcoming-invoices td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .upcoming-invoices th {
+    background-color: #f4f4f4;
+  }
+  
+  .upcoming-invoices button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .upcoming-invoices button:hover {
+    background-color: #45a049;
+  }
+  
