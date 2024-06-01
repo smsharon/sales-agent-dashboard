@@ -11,7 +11,7 @@
       ],
       "signupsOverview": [
         { "schoolType": "Primary", "Zeraki Analytics": 60, "Zeraki Finance": 40, "Zeraki Timetable": 20 },
-        { "schoolType": "Secondary", "Zeraki Analytics": 50, "Zeraki Finance": 30, "Zeraki Timetable": 10 },
+        { "schoolType": "Secondary", "Zeraki Analytics": 50, "Zeraki Finance": 30, "Zeraki Timetable": 5 },
         { "schoolType": "IGCSE", "Zeraki Analytics": 40, "Zeraki Finance": 10, "Zeraki Timetable": 5 }
       ],
       "upcomingInvoices": [
@@ -20,9 +20,9 @@
         { "id": 3, "schoolName": "Makini School", "amount": 8000, "dueDate": "2024-06-10" }
       ],
       "products": {
-        "zerakiAnalytics": { "signups": 150, "revenue": 600000 },
-        "zerakiFinance": { "signups": 80, "revenue": 300000 },
-        "zerakiTimetable": { "signups": 30, "revenue": 100000 }
+        "zerakiAnalytics": { "signups": 150, "revenue": 600000, "target":200 },
+        "zerakiFinance": { "signups": 80, "revenue": 300000, "target":100 },
+        "zerakiTimetable": { "signups": 30, "revenue": 100000, "target":50 }
       }
     },
     "schools": [
