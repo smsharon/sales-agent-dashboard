@@ -5,6 +5,7 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav className="navbar">
+      <h2>Sales Dashboard</h2>
       <ul>
         <li>
           <NavLink exact to="/" activeClassName="active-link">Dashboard</NavLink>
