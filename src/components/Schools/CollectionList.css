@@ -1,0 +1,47 @@
+.collection-list-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.collection-list-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.collection-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.collection-table th, .collection-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.collection-table th {
+  background-color: #f2f2f2;
+}
+
+.collection-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.collection-table tr:hover {
+  background-color: #ddd;
+}
+
+.collection-table button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: #28a745;
+  border: none;
+  border-radius: 3px;
+}
+
+.collection-table button:hover {
+  background-color: #218838;
+}
