@@ -77,7 +77,8 @@ The Zeraki Sales Agent Dashboard is designed to facilitate the management of sch
    2. Automatic generation of unique invoice numbers.
    3. Option to add collections to invoices and mark partial or full payments.
    4. Update invoice statuses based on collection results.
-   5. Interactive graphs and charts for better data visualization.   
+   5. Interactive graphs and charts for better data visualization.
+   6. search functionality 
 
 ## API endpoints
    1. GET /schools: Fetch all schools.
