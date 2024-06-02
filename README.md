@@ -80,14 +80,14 @@ The Zeraki Sales Agent Dashboard is designed to facilitate the management of sch
    5. Interactive graphs and charts for better data visualization.   
 
 ## API endpoints
-   GET /schools: Fetch all schools.
-   GET /schools/: Fetch details of a specific school by ID.
-   GET /invoices?schoolId=: Fetch invoices for a specific school by school ID.
-   POST /invoices: Create a new invoice.
-   PUT /invoices/: Update an existing invoice by ID.
-   DELETE /invoices/: Delete an invoice by ID.
-   GET /collections?invoiceId=: Fetch collections for a specific invoice by invoice ID.
-   POST /collections: Create a new collection.
-   PUT /collections/: Update an existing collection by ID.
-   DELETE /collections/: Delete a collection by ID.
+   1. GET /schools: Fetch all schools.
+   2. GET /schools/: Fetch details of a specific school by ID.
+   3. GET /invoices?schoolId=: Fetch invoices for a specific school by school ID.
+   4. POST /invoices: Create a new invoice.
+   5. PUT /invoices/: Update an existing invoice by ID.
+   6. DELETE /invoices/: Delete an invoice by ID.
+   7. GET /collections?invoiceId=: Fetch collections for a specific invoice by invoice ID.
+   8. POST /collections: Create a new collection.
+   9. PUT /collections/: Update an existing collection by ID.
+   10. DELETE /collections/: Delete a collection by ID.
   
