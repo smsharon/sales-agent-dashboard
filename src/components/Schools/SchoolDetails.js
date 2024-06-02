@@ -12,12 +12,12 @@ function SchoolDetails() {
 
   useEffect(() => {
     // Fetch school details
-    axios.get(`http://localhost:5000/schools/${id}`)
+    axios.get(`https://json-dashboard.vercel.app/schools/${id}`)
       .then(response => setSchool(response.data))
       .catch(error => console.error('Error fetching school details:', error));
 
     // Fetch invoices for the specific schoolId
-    axios.get(`http://localhost:5000/invoices?schoolId=${id}`)
+    axios.get(`https://json-dashboard.vercel.app/invoices?schoolId=${id}`)
       .then(response => setInvoices(response.data))
       .catch(error => console.error('Error fetching invoices:', error));
   }, [id]);

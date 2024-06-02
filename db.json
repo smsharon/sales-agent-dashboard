@@ -305,19 +305,6 @@
       "status": "Pending",
       "daysUntilDue": 2,
       "schoolId": "2"
-    },
-    {
-      "id": "d72f",
-      "item": "Zeraki Finance",
-      "dueDate": "2024-06-04",
-      "amount": "5700",
-      "invoiceNumber": "INV191",
-      "creationDate": "2024-06-02",
-      "paidAmount": 0,
-      "balance": "5700",
-      "status": "Pending",
-      "daysUntilDue": 2,
-      "schoolId": "1"
     }
   ],
   "collections": [

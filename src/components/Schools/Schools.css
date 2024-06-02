@@ -1,23 +1,55 @@
-.school-list-container {
+.schools-container {
   padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+ 
+}
+
+.schools-title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 .school-list {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
-  width: 30%;
-  margin-right: 20px;
 }
 
-.school-list li {
+.school-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
   padding: 10px;
-  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
-.school-list li hover {
-  background-color: #f9f9f9;
+.school-item:hover {
+  background-color: #f1f1f1;
 }
-.school-list a {
+
+.school-icon {
+  margin-right: 10px;
+  color: #6c757d;
+}
+
+.school-link {
   text-decoration: none;
- 
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.school-link:hover {
+  color: #0056b3;
 }
