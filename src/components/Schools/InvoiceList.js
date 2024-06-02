@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import InvoiceForm from './InvoiceForm';
 import CollectionForm from './CollectionForm'; 
+import './InvoiceList.css'
 
 function InvoiceList({ schoolId, invoices, setInvoices }) {
   const [selectedInvoice, setSelectedInvoice] = useState(null);
