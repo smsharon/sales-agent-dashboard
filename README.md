@@ -73,11 +73,11 @@ The Zeraki Sales Agent Dashboard is designed to facilitate the management of sch
    Collections are managed as part of each invoice. You can add collections to an invoice and update the status of collections.
 
 ## Additional features
-   Enhanced filtering for invoices based on their status (completed or pending).
-   Automatic generation of unique invoice numbers.
-   Option to add collections to invoices and mark partial or full payments.
-   Update invoice statuses based on collection results.
-   Interactive graphs and charts for better data visualization.   
+   . Enhanced filtering for invoices based on their status (completed or pending).
+   . Automatic generation of unique invoice numbers.
+   . Option to add collections to invoices and mark partial or full payments.
+   . Update invoice statuses based on collection results.
+   . Interactive graphs and charts for better data visualization.   
 
 ## API endpoints
    GET /schools: Fetch all schools.
