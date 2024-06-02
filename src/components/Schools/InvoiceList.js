@@ -14,7 +14,7 @@ function InvoiceList({ schoolId, invoices, setInvoices }) {
   const handleSaveInvoice = (invoice) => {
     invoice.schoolId = schoolId;
     if (invoice.id) {
-      axios.put(`http://localhost:5000/invoices/${invoice.id}`, invoice)
+      axios.put(`https://json-dashboard.vercel.app/invoices/${invoice.id}`, invoice)
         .then(() => {
           setInvoices(prevInvoices =>
             prevInvoices.map(inv => (inv.id === invoice.id ? invoice : inv))
@@ -25,7 +25,7 @@ function InvoiceList({ schoolId, invoices, setInvoices }) {
           console.error('Error updating invoice:', error);
         });
     } else {
-      axios.post('http://localhost:5000/invoices', invoice)
+      axios.post('https://json-dashboard.vercel.app/invoices', invoice)
         .then(response => {
           setInvoices(prevInvoices => [...prevInvoices, response.data]);
           setModalSuccessMessage('Invoice added successfully!');
@@ -38,7 +38,7 @@ function InvoiceList({ schoolId, invoices, setInvoices }) {
   };
 
   const handleDeleteInvoice = (invoiceId) => {
-    axios.delete(`http://localhost:5000/invoices/${invoiceId}`)
+    axios.delete(`https://json-dashboard.vercel.app/invoices/${invoiceId}`)
       .then(() => {
         setInvoices(prevInvoices => prevInvoices.filter(invoice => invoice.id !== invoiceId));
         setModalSuccessMessage('Invoice deleted successfully!');
@@ -79,7 +79,7 @@ const updateInvoiceStatus = (invoiceId) => {
 
 // Function to handle adding a collection
 const handleAddCollection = (collectionData) => {
-  axios.post('http://localhost:5000/collections', collectionData)
+  axios.post('https://json-dashboard.vercel.app/collections', collectionData)
     .then(response => {
       const updatedInvoices = invoices.map(invoice => {
         if (invoice.id === selectedInvoiceId) {

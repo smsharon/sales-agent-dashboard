@@ -9,7 +9,7 @@ function UpcomingInvoices() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/data')
+    axios.get('https://json-dashboard.vercel.app/data')
       .then(response => setInvoices(response.data.upcomingInvoices))
       .catch(error => console.error('Error fetching invoices:', error));
   }, []);

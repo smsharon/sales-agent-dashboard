@@ -11,7 +11,7 @@ function CollectionList({ schoolId }) {
 
     useEffect(() => {
         // Fetch school details
-        axios.get(`http://localhost:5000/schools/${id}`)
+        axios.get(`https://json-dashboard.vercel.app/schools/${id}`)
             .then(response => {
                 setSchool(response.data);
                 // Extract invoices from school

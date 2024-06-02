@@ -19,7 +19,7 @@ function AddCollectionForm({ schoolId, invoiceId, onCollectionAdded }) {
       collectionNumber: `COL${Date.now()}` // To Generate a unique collection number
     };
 
-    axios.post(`http://localhost:5000/schools/${schoolId}/invoices/${invoiceId}/collections`, newCollection)
+    axios.post(`https://json-dashboard.vercel.app/schools/${schoolId}/invoices/${invoiceId}/collections`, newCollection)
       .then(response => {
         onCollectionAdded(response.data);
         setForm({ amount: '', date: '', status: 'Valid' });

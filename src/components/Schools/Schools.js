@@ -7,7 +7,7 @@ function SchoolList() {
   const [schools, setSchools] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/schools')
+    axios.get('https://json-dashboard.vercel.app/schools')
       .then(response => setSchools(response.data));
   }, []);
 

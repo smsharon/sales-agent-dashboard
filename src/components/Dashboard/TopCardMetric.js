@@ -22,7 +22,7 @@ function TopCardMetrics() {
   });
 
   useEffect(() => {
-    axios.get('http://localhost:5000/data')
+    axios.get('https://json-dashboard.vercel.app/data')
       .then(response => setData(response.data));
   }, []);
 
