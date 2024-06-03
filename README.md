@@ -1,4 +1,4 @@
-# Zeraki Sales Agent Dashboard
+# Sales Agent Dashboard
 
 ## Project Overview
 The Zeraki Sales Agent Dashboard is designed to facilitate the management of school accounts, invoicing, and collections, providing data visualization for targets and sign-ups. This internal system streamlines operations for sales agents, enabling efficient management of relationships with schools and enhancing operational efficiency.
